@@ -26,7 +26,6 @@ This example also make use of the latest MPLAB Code Configurator (MCC) Melody, a
 <img src="https://i.imgur.com/e74InQZ.jpg" width = "600"><br>
 
 
-
 ## System Setup
 MPLAB Code Configurator (MCC) is used to configure the system setup for the PIC18F45K42. The clock is set to 500KHz. The watchdog timer is set through SWDTEN with a period of approximately four seconds.
 <br><img src= "images/clock control.png">
