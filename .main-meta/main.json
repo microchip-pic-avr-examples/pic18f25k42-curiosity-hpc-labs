@@ -7,7 +7,7 @@
         "version": "2.0.0",
         "displayName": "Example for Curiosity HPC development board with PIC18F25K42",
         "projectName": "pic18f25k42-curiosity-hpc-labs",
-        "shortDescription": "Ten labs to showcase the PIC18F26K42",
+        "shortDescription": "Ten labs to showcase the PIC18F25K42",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.15.0"
