@@ -68,20 +68,20 @@
                        projectFiles="true">
           <itemPath>Labs/Lab06_PulseWidthModulation/PWM.c</itemPath>
         </logicalFolder>
+        <logicalFolder name="Lab09_Timers"
+                       displayName="Lab07_Timers"
+                       projectFiles="true">
+          <itemPath>Labs/Lab09_Timers/Timer1.c</itemPath>
+        </logicalFolder>
         <logicalFolder name="Lab07_Interrupts"
-                       displayName="Lab07_Interrupts"
+                       displayName="Lab08_Interrupts"
                        projectFiles="true">
           <itemPath>Labs/Lab07_Interrupts/Interrupt_lab.c</itemPath>
         </logicalFolder>
         <logicalFolder name="Lab08_SleepWakeup"
-                       displayName="Lab08_SleepWakeup"
+                       displayName="Lab09_SleepWakeup"
                        projectFiles="true">
           <itemPath>Labs/Lab08_SleepWakeup/SleepWakeUp.c</itemPath>
-        </logicalFolder>
-        <logicalFolder name="Lab09_Timers"
-                       displayName="Lab09_Timers"
-                       projectFiles="true">
-          <itemPath>Labs/Lab09_Timers/Timer1.c</itemPath>
         </logicalFolder>
         <logicalFolder name="Lab10_EEPROM"
                        displayName="Lab10_EEPROM"
@@ -292,6 +292,8 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fff"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/MPLAB Projects/pic18f25k42_curiosity_hpc_labs.X/debug/free/pic18f25k42_curiosity_hpc_labs_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
@@ -546,6 +548,8 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fff"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/MPLAB Projects/pic18f25k42_curiosity_hpc_labs.X/debug/pro/pic18f25k42_curiosity_hpc_labs_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>

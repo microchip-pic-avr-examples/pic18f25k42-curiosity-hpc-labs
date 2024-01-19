@@ -37,7 +37,7 @@ MPLAB Code Configurator (MCC) is used to configure the system setup for the PIC1
 <br><img src= "images/project_and_device_resources.png">
 
 ## Labs
-The labs in this Read me are presented in the same order as they appear on the MPLAB X Project and the programmed code into the device. The user can switch through each of the labs by simply pressing the S1 button on the board.
+The labs in this Readme are presented in the same order as they appear on the MPLAB X Project and the programmed code into the device. The user can switch through each of the labs by simply pressing the S1 button on the board.
 
 - Lab 1: Hello World (Turn on an LED) <br />
 - Lab 2: Blink <br />
@@ -53,7 +53,7 @@ The labs in this Read me are presented in the same order as they appear on the M
 ## Inputs and Display
 - Push Button Switch - Only one on-board push button switch (S1) is utilized. The S1 is connected to the PIC MCU's RB4 pin and is used to switch to the next lab <br />
 - Potentiometer - A 10 kΩ Potentiometer connected to the RA0 pin is used in labs requiring analog inputs <br />
-- LEDs - The Curiosity HPC Development board has four LEDs (D2 through D5) that are connected to I/O ports RA4 through RA7, respectively. These LEDs are used to display the output of the different labs <br/>
+- LEDs - The Curiosity HPC Development board has four LEDs (D2 through D5) that are connected to I/O ports RA4 through RA7, respectively. These LEDs are used to display the output of the different labs. <br/>
 ## Labs Flow Chart
 <img src="https://i.imgur.com/snXbThS.png" width = "600"><br>
 
@@ -182,7 +182,7 @@ The Power-Down mode is entered by executing the SLEEP instruction. Upon entering
 
 Different PICs have different condition once they enter Sleep mode. Refer to the datasheet for more information. <br />
 
-The Watchdog Timer (WDT) is a system timer that generates a Reset if the firmware does not issue a Clear Watchdog Timer (```CLRWDT```)``` instruction within the time-out period. WDT is typically used to recover the system from unexpected events. When the device enters Sleep, the WDT is cleared. If the WDT is enabled during Sleep, the WDT resumes counting. When the device exits Sleep, the WDT is cleared again. When a WDT time-out occurs while the device is in Sleep, no Reset is generated.
+The Watchdog Timer (WDT) is a system timer that generates a Reset if the firmware does not issue a Clear Watchdog Timer (```CLRWDT```) instruction within the time-out period. WDT is typically used to recover the system from unexpected events. When the device enters Sleep, the WDT is cleared. If the WDT is enabled during Sleep, the WDT resumes counting. When the device exits Sleep, the WDT is cleared again. When a WDT time-out occurs while the device is in Sleep, no Reset is generated.
 
 <br><img src= "https://i.imgur.com/osl4EM9.jpg">
 
@@ -202,7 +202,7 @@ This lab has a similar appearance to Lab 4: ADC. Instead of moving the ADC resul
 ## Operation
 Program Device using MPLABX project provided.
 To progress through each Lab: Press S1, and observe the results. 
-Rotation of the Potentiometer takes place during the (ADCC) Analog-to-digital Converter, Variable Speed Rotate, (PWM) Pulse width modulation and (EEPROM) Electronic erasable read only memory labs.
+Rotation of the Potentiometer takes place during the Analog-to-digital Converter (ADCC), Variable Speed Rotate, Pulse width modulation (PWM), and Electronic Erasable Programmable Read Only Memory (EEPROM) labs.
 
 ## Summary
 After programming the device and completing all the labs. The user has learned how to setup a GPIO to turn on an LED. Setup and use the timer module using the polling method to blink an LED. Use a concept of rotating a register through the carry bit to rotate the lighting of an LED. Setup and use the ADC module to do an analog-to-digital conversion. Setup and use the PWM module to adjust the brightness of an LED. Setup and use the timer to control the rotation of an led through an array of LEDs. Setup and use interrupts so the user may use the core of the microcontroller as efficient as possible. Wake-up from sleep: using the WDT timer. Setup and use the NVM module routines to use on-board EEPROM for non-volatile memory storage. 
